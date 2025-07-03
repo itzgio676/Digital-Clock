@@ -1,0 +1,51 @@
+/* Fullscreen background & centering */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #0a0a23;
+  font-family: "Orbitron", sans-serif;
+}
+
+.app-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Existing clock styles below... */
+.clock-container {
+  text-align: center;
+  color: #00bfff;
+  background: #111;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px #00bfff;
+  min-width: 300px;
+}
+
+.time {
+  font-size: 3rem;
+  text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid #00bfff;
+  color: #00bfff;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #00bfff;
+  color: #0a0a23;
+}
+
+.temperature {
+  margin-top: 1rem;
+}
